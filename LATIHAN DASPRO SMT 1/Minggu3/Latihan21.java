@@ -2,9 +2,6 @@ package Minggu3;
 
 import java.util.Scanner;
 
-/**
- * Latihan21
- */
 public class Latihan21 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
@@ -31,12 +28,9 @@ public class Latihan21 {
 
         V = I * Rtotal;
 
-        System.out.println("\nRp = " + Rp);
-        System.out.println("Rtotal = " + Rtotal);
-        System.out.println("I = " + I);
-        System.out.println("V = I * Rtotal = " + V);
-
-    }
-
-    
+        System.out.println("\nRp\t= " + Rp);
+        System.out.println("Rtotal\t= " + Rtotal);
+        System.out.println("I\t= " + I);
+        System.out.println("V\t= I * Rtotal \n\t= " + V);
+    }    
 }
