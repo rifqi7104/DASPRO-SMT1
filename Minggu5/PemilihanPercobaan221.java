@@ -14,31 +14,33 @@ public class PemilihanPercobaan221 {
         float kuis = input21.nextFloat();
         System.out.print("Nilai Tugas : ");
         float tugas = input21.nextFloat();
+        String predikat;
 
         float total = (uas * 0.4F)+(uts * 0.4F)+(kuis * 0.1F)+(tugas * 0.2F);
 
         String message = total < 65 ? "Remidi" : "Tidak remidi";
 
         if (total > 80 && total <= 100){
-            System.out.println("Nilai Akhir = " + total + " (A) sehingga " + message);
+            predikat = "A";
         }
         else if (total > 73 && total <= 80){
-            System.out.println("Nilai Akhir = " + total + " (B+) sehingga " + message);
+            predikat = "B+";
         }
         else if (total > 65 && total <= 73){
-            System.out.println("Nilai Akhir = " + total + " (B) sehingga " + message);
+            predikat = "B";
         }
         else if (total > 60 && total <= 65){
-            System.out.println("Nilai Akhir = " + total + " (C+) sehingga " + message);
+            predikat = "C+";
         }
         else if (total > 50 && total <= 60){
-            System.out.println("Nilai Akhir = " + total + " (C) sehingga " + message);
+            predikat = "C";
         }
         else if (total > 39 && total <= 50){
-            System.out.println("Nilai Akhir = " + total + " (D) sehingga " + message);
+            predikat = "D";
         }
-        else{ 
-            System.out.println("Nilai Akhir = " + total + "(E) sehingga " + message);
+        else{predikat = "E";
         }
+        
+            System.out.println("Nilai Akhir = " + total + " dengan predikat " + predikat + " sehingga " + message);
     }
 }
