@@ -2,9 +2,6 @@ package Minggu5;
 
 import java.util.Scanner;
 
-/**
- * PemilihanPercobaan121
- */
 public class PemilihanPercobaan121 {
     public static void main(String[] args) {
         Scanner input21 = new Scanner(System.in);

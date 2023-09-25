@@ -41,6 +41,6 @@ public class PemilihanPercobaan221 {
         else{predikat = "E";
         }
         
-            System.out.println("Nilai Akhir = " + total + " dengan predikat " + predikat + " sehingga " + message);
+        System.out.println("Nilai Akhir = " + total + " dengan predikat " + predikat + " sehingga " + message);
     }
 }
