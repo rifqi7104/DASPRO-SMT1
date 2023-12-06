@@ -1,8 +1,18 @@
 package Minggu13;
 
+import java.util.Scanner;
+
 public class Kubus21 {
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        int s,v,l;
+
+        System.out.print("Masukkan panjang sisi : ");
+        s = sc.nextInt();
+        v = hitungVol(s);
+        l = hitungLuasP(s);
+        System.out.println("Volume = "+v);
+        System.out.println("Luas Permukaan = "+l);    
     }
 
     static int hitungVol (int a){
@@ -14,13 +24,4 @@ public class Kubus21 {
         int LP = 6*b*b;
         return LP;
     }
-
-    static void memasukkanNilai(int[] mhs = new mhs[5],int[] nilai = new nilai[7]){
-        for (int i = 0; i <= mhs[]; i++) {
-            
-        }
-
-    }
-    
-    
 }
